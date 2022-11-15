@@ -1,8 +1,8 @@
 ---
-- name: Set diff.colorMoved
-  community.general.git_config:
-    name: diff.colorMoved
-    scope: global
-    value: zebra
-
-
+name: "Install homebrew packages"
+      community.general.homebrew:
+        name: [
+          'bat',
+        ]
+        state: present
+        update_homebrew: yes
