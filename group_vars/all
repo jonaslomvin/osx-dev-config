@@ -2,6 +2,7 @@ default_roles:
   - git
   - brew-bat
   - brew-kubectl
+  - brew-kubectx
   - brew-azure-cli
   - brew-dnscontrol
   - brew-exa
