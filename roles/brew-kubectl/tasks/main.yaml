@@ -1,0 +1,6 @@
+---
+- name: "Install homebrew packages"
+  community.general.homebrew:
+    name: [ kubectl ]
+    state: present
+    update_homebrew: true
