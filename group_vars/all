@@ -8,3 +8,4 @@ default_roles:
   - brew-gh
   - brew-pandoc
   - brew-starship
+  - brew-terraform
