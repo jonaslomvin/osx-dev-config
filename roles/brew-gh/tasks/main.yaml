@@ -1,0 +1,6 @@
+---
+- name: "Install homebrew packages"
+  community.general.homebrew:
+    name: [ gh ]
+    state: present
+    update_homebrew: true

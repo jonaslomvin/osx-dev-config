@@ -1,4 +1,10 @@
 default_roles:
+  - git
   - brew-bat
   - brew-kubectl
-  - git
+  - brew-azure-cli
+  - brew-dnscontrol
+  - brew-exa
+  - brew-gh
+  - brew-pandoc
+  - brew-starship
