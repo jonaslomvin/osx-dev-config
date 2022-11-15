@@ -9,3 +9,4 @@ default_roles:
   - brew-pandoc
   - brew-starship
   - brew-terraform
+  - brew-hack-nerd-font
