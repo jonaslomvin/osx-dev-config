@@ -3,13 +3,8 @@ set -e
 
 # Paths
 CONFIG_DIR="$HOME/.config/dotfiles"
-DOTFILES_DIR="$HOME/.dotfiles"
+DOTFILES_DIR="$HOME/.osx-dev-config"
 SSH_DIR="$HOME/.ssh"
-
-# Install Ansible
-# if ! [ -x "$(command -v ansible)" ]; then
-#  sudo pacman -S ansible --noconfirm
-# fi
 
 # Install Ansible
 if ! [ -x "$(command -v ansible)" ]; then
@@ -30,7 +25,7 @@ fi
 
 # Clone repository
 if ! [[ -d "$DOTFILES_DIR" ]]; then
-  git clone "https://github.com/jonaslomvin/dotfiles.git" "$DOTFILES_DIR"
+  git clone "https://github.com/jonaslomvin/osx-dev-config.git" "$DOTFILES_DIR"
 else
   git -C "$DOTFILES_DIR" pull
 fi
