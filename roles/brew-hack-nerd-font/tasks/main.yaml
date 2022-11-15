@@ -5,4 +5,3 @@
   ignore_errors: true
   with_items:
         - font-hack-nerd-font
-  update_homebrew: yes
