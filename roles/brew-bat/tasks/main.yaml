@@ -12,11 +12,3 @@
         line: '/opt/homebrew/bin'
       become: true
       become_user: root
-
-name: "Install homebrew packages"
-      community.general.homebrew:
-        name: [
-          'bat',
-        ]
-        state: present
-        update_homebrew: yes
