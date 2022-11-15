@@ -1,9 +1,9 @@
 ---
-- name: Install core packages via brew casks
+- name: "Install core packages via brew casks"
   community.general.homebrew_cask:
         name: "{{ item }}"
   ignore_errors: true
   with_items:
         - font-hack-nerd-font
-  state: present
-  update_homebrew: yes
+  state: presentß
+  update_homebrew: yesß
